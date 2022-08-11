@@ -6,6 +6,8 @@ https://leetcode.com/problems/maximum-subarray/
 
 [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer)
 
+Kadena Algorithm
+
 
 ## Problem Description
 

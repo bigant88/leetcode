@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f23f779-b788-4cac-8e61-24d9a2ba278b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/53_Maximum_SubArray.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/001_ProblemName.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/array/01_TwoSum.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/array/217-Contains-Duplicate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/53_Maximum_SubArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/array/53_Maximum_SubArray.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
         <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -41,17 +43,21 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/datastructure/array" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datastructure/array" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datastructure/array" />
       <recent name="$PROJECT_DIR$/src/datastructure" />
       <recent name="$PROJECT_DIR$/src/templates" />
     </key>
