@@ -27,37 +27,72 @@ Constraints:
 ```
 
 ## Solution
+1.Time complexity: O(N^2), memory: O(1)
+  The naive approach would be to run a iteration for each element and see whether a duplicate value can be found:
+   this results in O(N^2) time complexity.
 
+------
+
+```
+    public boolean containsDuplicate(int[] nums) {
+
+        Arrays.sort(nums);
+        for(int ind = 1; ind < nums.length; ind++) {
+            if(nums[ind] == nums[ind - 1]) {
+                return true;
+            }
+        }
+        return false;
+    }
+```
+
+------
+
+Time complexity: O(N), memory: O(N)
+
+Finally we can used a well known data structure hash table that will help us to identify whether an element has been previously encountered in the array.
+
+------
+
+```
+public boolean containsDuplicate(int[] nums) {
+
+    final Set<Integer> distinct = new HashSet<Integer>();
+    for(int num : nums) {
+        if(distinct.contains(num)) {
+            return true;
+        }
+        distinct.add(num);
+    }
+    return false;
+}
+```
+
+------
+
+This is trivial but quite nice example of space-time tradeoff.
 
 ## Key Points
 
-- Find the difference instead of the sum
-- Connect every number with its index through the help of Map
-- Less time by more space. Reduce the time complexity from O(N) to O(1)
+
 
 ## Code
 
-- Support Language: Kotlin
+- Support Language: Java
 
-```js
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-const twoSum = function (nums, target) {
-  const map = new Map();
-  for (let i = 0; i < nums.length; i++) {
-    const diff = target - nums[i];
-    if (map.has(diff)) {
-      return [map.get(diff), i];
+```java
+public boolean containsDuplicate(int[] nums) {
+    Set<Integer> set = new HashSet<Integer>();
+    for(int i : nums)
+        if(!set.add(i))// if there is same
+        return true; 
+    return false;
     }
-    map.set(nums[i], i);
-  }
-};
+}
 ```
 
 **_Complexity Anlysis_**
 
 - _Time Complexity_: O(N)
 - _Space Complexity_：O(N)
+

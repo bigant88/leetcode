@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f23f779-b788-4cac-8e61-24d9a2ba278b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode75/1480ArrayPrefixSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode75/205IsomorphicStrings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode75/724FindPivotIndex.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datastructure" />
     </key>
   </component>
   <component name="RunManager">
