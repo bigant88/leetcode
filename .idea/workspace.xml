@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f23f779-b788-4cac-8e61-24d9a2ba278b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/53_Maximum_SubArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/001_ProblemName.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/217-Contains-Duplicate.md" afterDir="false" />
     </list>
@@ -51,6 +53,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/datastructure" />
+      <recent name="$PROJECT_DIR$/src/templates" />
     </key>
   </component>
   <component name="RunManager">

@@ -2,6 +2,8 @@
 
 https://leetcode.com/problems/contains-duplicate/
 
+[Array](https://leetcode.com/tag/array) [Hash Table](https://leetcode.com/tag/hash-table) [Sorting]
+
 ## Problem Description
 
 ```
